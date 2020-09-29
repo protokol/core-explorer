@@ -1,9 +1,10 @@
 {
-    "name": "@arkecosystem/core-explorer",
-    "version": "2.7.1",
-    "description": "Explorer for ARK Core",
+    "name": "@protokol/core-explorer",
+    "version": "3.0.0",
+    "description": "Explorer for Protokol Core",
     "license": "MIT",
     "contributors": [
+        "Žan Kovač <zan@protokol.com>",
         "Brian Faust <brian@ark.io>"
     ],
     "files": [
@@ -19,8 +20,7 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.7.1",
-        "@arkecosystem/core-interfaces": "^2.7.1",
+        "@arkecosystem/core-kernel": "^3.0.0-alpha.10",
         "connect-history-api-fallback": "^1.6.0",
         "express": "^4.17.1"
     },
